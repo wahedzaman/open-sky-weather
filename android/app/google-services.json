@@ -1,0 +1,216 @@
+{
+  "project_info": {
+    "project_number": "941647359609",
+    "firebase_url": "https://aflion-57378.firebaseio.com",
+    "project_id": "aflion-57378",
+    "storage_bucket": "aflion-57378.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941647359609:android:4895e89452e572e2",
+        "android_client_info": {
+          "package_name": "com.aflion.bdgovtholiday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941647359609-d7t6fuajuf0k7b929a2mvr3ecucopp6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aflion.bdgovtholiday",
+            "certificate_hash": "ad75eb8734e0fad3c9f9971a6fe99d354034aa4d"
+          }
+        },
+        {
+          "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKXpcC-RO7h1oWroapoA3c3Sy_YajSFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941647359609-abugcvr051vm2g7vukmsn5culq000der.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.com.hospitalupdate.HospitalBd"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2958767470758568~6965692787"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941647359609:android:996ce3011eeca00d",
+        "android_client_info": {
+          "package_name": "com.aflion.www.dailyquotes.instaquotes.quotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941647359609-b80suegtuiskfp2vipf59a0uo0f12049.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aflion.www.dailyquotes.instaquotes.quotes",
+            "certificate_hash": "5b5d8993516853eb23045c5b5d31c2a34cab3eb4"
+          }
+        },
+        {
+          "client_id": "941647359609-upjlh9unuuv9bcnj57ijqq9sqlq786na.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aflion.www.dailyquotes.instaquotes.quotes",
+            "certificate_hash": "fc1dce0f4a6ab5a98705ef7a4c266dafa496f8a5"
+          }
+        },
+        {
+          "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKXpcC-RO7h1oWroapoA3c3Sy_YajSFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941647359609-abugcvr051vm2g7vukmsn5culq000der.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.com.hospitalupdate.HospitalBd"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941647359609:android:ed6fb4f12d6c4092b5eea8",
+        "android_client_info": {
+          "package_name": "com.hospital.update.nearby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKXpcC-RO7h1oWroapoA3c3Sy_YajSFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941647359609-abugcvr051vm2g7vukmsn5culq000der.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.com.hospitalupdate.HospitalBd"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941647359609:android:260a6a5d2ec4150fb5eea8",
+        "android_client_info": {
+          "package_name": "com.waheduzzaman.easy.attendance.easy_attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKXpcC-RO7h1oWroapoA3c3Sy_YajSFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941647359609-abugcvr051vm2g7vukmsn5culq000der.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.com.hospitalupdate.HospitalBd"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941647359609:android:f43c4dd937d21597b5eea8",
+        "android_client_info": {
+          "package_name": "com.waheduzzaman.open.weather.app.open_sky_weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKXpcC-RO7h1oWroapoA3c3Sy_YajSFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941647359609-0e5qj1m4ofn8jpigia6111681p8pope6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941647359609-abugcvr051vm2g7vukmsn5culq000der.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.com.hospitalupdate.HospitalBd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
