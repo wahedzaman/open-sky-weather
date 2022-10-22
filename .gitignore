@@ -30,8 +30,7 @@
 .pub-cache/
 .pub/
 /build/
-/lib/business_logic/core/api_endpoints.dart
-lib/business_logic/core/api_enpoints.dart
+/lib/business_logic/core/api_enpoints.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
