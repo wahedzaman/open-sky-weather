@@ -14,8 +14,8 @@ import 'package:open_sky_weather/ui/screens/settings/settings_screen.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 ///***
-///  (screen -> interaction) -> action() -> state changes -> user feedback
-///  screen      <->       business logic(modelview)    <-> service (api/db/file/network)
+///  (screen -> interaction) -> action()/business decision -> state changes -> user feedback
+///  screen      <->       business logic(modelview)/controller    <-> service (api/db/file/network)
 ///
 ///
 /// */

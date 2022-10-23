@@ -9,7 +9,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 class TeamScreen extends StatelessWidget {
   TeamScreen({super.key});
-  final TeamScreenController teamScreenController = Get.put(TeamScreenController());
+  final TeamScreenController teamScreenController =
+      Get.put(TeamScreenController());
   final RefreshController _refreshController = RefreshController();
 
   Future<void> _onRefresh() async {
@@ -44,24 +45,30 @@ class TeamScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(
                     horizontal: 8,
                   ),
-                  child: (teamScreenController.teamList.isEmpty)
-                      ? _showLoading()
-                      : ListView.builder(
-                          primary: false,
-                          itemCount: teamScreenController.teamList.length,
-                          itemBuilder: (context, index) {
-                            final team = teamScreenController.teamList[index];
-                            return Container(
-                              padding: EdgeInsets.all(Get.width * .04),
-                              width: Get.width,
-                              decoration: BoxDecoration(
-                                color: aColor.brandDark2.color,
-                                borderRadius: BorderRadius.circular(Get.width * .04),
-                              ),
-                              child: _buildSocialRow(team),
-                            ).marginOnly(bottom: 12);
-                          },
-                        ),
+                  child: controller.hasError.value
+                      ? const Center(
+                          child: Text("errr"),
+                        )
+                      : (teamScreenController.teamList.isEmpty)
+                          ? _showLoading()
+                          : ListView.builder(
+                              primary: false,
+                              itemCount: teamScreenController.teamList.length,
+                              itemBuilder: (context, index) {
+                                final team =
+                                    teamScreenController.teamList[index];
+                                return Container(
+                                  padding: EdgeInsets.all(Get.width * .04),
+                                  width: Get.width,
+                                  decoration: BoxDecoration(
+                                    color: aColor.brandDark2.color,
+                                    borderRadius:
+                                        BorderRadius.circular(Get.width * .04),
+                                  ),
+                                  child: _buildSocialRow(team),
+                                ).marginOnly(bottom: 12);
+                              },
+                            ),
                 ),
               ),
             );

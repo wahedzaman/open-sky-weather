@@ -10,19 +10,18 @@ import 'package:intl/intl.dart';
 import 'package:open_sky_weather/business_logic/core/service_locator.dart';
 import 'package:open_sky_weather/business_logic/model/model.dart';
 import 'package:open_sky_weather/business_logic/utilities/utility.dart';
-import 'package:open_sky_weather/services/api/aflion_analytic_api.dart';
 import 'package:open_sky_weather/services/api/open_weather_api.dart';
 
 class HomeScreenController extends GetxController {
   final OpenWeatherAPI _weatherAPI = serviceLocator<OpenWeatherAPI>();
-  final AflionAnalyticsAPI _analyticsAPI = serviceLocator<AflionAnalyticsAPI>();
+  // final AflionAnalyticsAPI _analyticsAPI = serviceLocator<AflionAnalyticsAPI>();
   final storage = GetStorage();
   final int REFRESH_TIME_DELTA_HOUR = 0;
   final int REFRESH_TIME_DELTA_MIN = 2;
 
   Utility utility = serviceLocator<Utility>();
   RxBool hasError = false.obs;
-  RxBool noDataRecords = false.obs;
+  // RxBool noDataRecords = false.obs;
   Rx<Model> model = Model().obs;
 
   // ignore: always_declare_return_types, type_annotate_public_apis
